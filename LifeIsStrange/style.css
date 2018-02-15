@@ -1,4 +1,64 @@
-﻿.container{
+﻿.container {
     display: grid;
 }
 
+section.grid-item.grid-item-1 {
+    background-color: pink;
+    height: 250px;
+}
+
+section.grid-item.grid-item-2 {
+    background-color: darkred;
+    height: 300px
+}
+
+section.grid-item.grid-item-3 {
+    background-image: url('image/junkyard.jpg');
+    background-size: cover;
+     height: 2000px;
+    
+    
+}
+
+#img1 {
+    height: 200px;
+    width: 700px;
+    margin-left: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin-left: 250px;
+    padding: 35px;
+    margin-top: 50px;
+}
+
+li {
+    float: left;
+   
+}
+
+li a {
+        display: block;
+        color: white;
+        text-align: center;
+        font-size: 80px;
+        padding: 20px 50px;
+        text-decoration: none;
+    }
+
+li a:hover {
+        background-color: red;
+}
+
+.jumbotron{
+    margin-left: 2400px;
+    margin-top: 300px;
+    
+    
+}
+       
